@@ -46,5 +46,6 @@ pretrained_models
 |  |  |_pytorch_model.bin
 |  |  |_bert_config.json
 |  |_bert-base-uncased.txt
+```
 
 
