@@ -8,30 +8,41 @@ To reproduce all our results as reported bellow, you can use our [pretrained mod
 | PPMN   | 59.4| 57.2  | 62.5  | 60.0   | 54.0   |
 | XPNG   | 63.3| 61.1  | 66.2  | 64.0   | 56.4   |
 
+
 ## Dataset
-Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset.org/#download). You will need the train and validation splits' images and panoptic segmentations annotations.
-Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads).
+
+Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset.org/#download). You will need the train and validation splits' images and panoptic segmentations annotations. Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads).
+
 Organize the files as follows:
 
 
-<span style="background-color: #F5F5DC; padding: 10px; color: black; font-weight: bold; display: inline-block; width: 100%; box-sizing: border-box;">
+当在Markdown中展示代码时，您可以使用三个反引号（```）来创建代码块。以下是您的示例代码的完整Markdown格式：
+
+markdown
+Copy code
+# XPNG
+
+## Dataset
+
+Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset.org/#download). You will need the train and validation splits' images and panoptic segmentations annotations. Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads).
+
+Organize the files as follows:
 
 XPNG
 |_ panoptic_narrative_grounding
-   |_ images
-   |  |_ train2017
-   |  |_ val2017
-   |_ annotations
-   |  |_ png_coco_train2017.json
-   |  |_ png_coco_val2017.json
-   |  |_ panoptic_segmentation
-   |  |  |_ train2017
-   |  |  |_ val2017
-   |  |_ panoptic_train2017.json
-   |  |_ panoptic_val2017.json
+|_ images
+| |_ train2017
+| |_ val2017
+|_ annotations
+| |_ png_coco_train2017.json
+| |_ png_coco_val2017.json
+| |_ panoptic_segmentation
+| | |_ train2017
+| | |_ val2017
+| |_ panoptic_train2017.json
+| |_ panoptic_val2017.json
 |_ data
 
-</span >
 
 ## Pretrained Bert Model and PFPN
 
