@@ -18,29 +18,17 @@ Organize the files as follows:
 
 XPNG
 |_ panoptic_narrative_grounding
-
    |_ images
-   
    |  |_ train2017
-   
    |  |_ val2017
-   
    |_ annotations
-   
    |  |_ png_coco_train2017.json
-   
    |  |_ png_coco_val2017.json
-   
    |  |_ panoptic_segmentation
-   
    |  |  |_ train2017
-   
    |  |  |_ val2017
-   
    |  |_ panoptic_train2017.json
-   
    |  |_ panoptic_val2017.json
-   
 |_ data
 
 </span >
