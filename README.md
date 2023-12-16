@@ -13,9 +13,9 @@ Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset
 Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads).
 Organize the files as follows:
 
-
-<span style="background-color: #F5F5DC; padding: 10px; color: black; font-weight: bold; display: inline-block; width: 100%; box-sizing: border-box;">
 '''html
+<span style="background-color: #F5F5DC; padding: 10px; color: black; font-weight: bold; display: inline-block; width: 100%; box-sizing: border-box;">
+
 XPNG
 |_ panoptic_narrative_grounding
    |_ images
