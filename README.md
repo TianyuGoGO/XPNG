@@ -31,4 +31,18 @@ XPNG
    |  |_ panoptic_val2017.json
 |_ data
 
+## Pretrained Bert Model and PFPN
+
+The pre-trained checkpoint can be downloaded from [here](https://drive.google.com/drive/folders/1xrJmbBJ35M4O1SNyzb9ZTsvlYrwmkAph), and the folder should be like:
+
+```html
+pretrained_models
+|_fpn
+|  |_model_final_cafdb1.pkl
+|_bert
+|  |_bert-base-uncased
+|  |  |_pytorch_model.bin
+|  |  |_bert_config.json
+|  |_bert-base-uncased.txt
+
 
