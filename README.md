@@ -15,7 +15,7 @@ Organize the files as follows:
 
 
 ```html
-<div style="background-color: #F5F5DC; padding: 10px;">
+
 XPNG
 |_ panoptic_narrative_grounding
    |_ images
