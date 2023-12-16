@@ -9,18 +9,7 @@ To reproduce all our results as reported bellow, you can use our [pretrained mod
 | XPNG   | 63.3| 61.1  | 66.2  | 64.0   | 56.4   |
 
 
-## Dataset
 
-Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset.org/#download). You will need the train and validation splits' images and panoptic segmentations annotations. Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads).
-
-Organize the files as follows:
-
-
-当在Markdown中展示代码时，您可以使用三个反引号（```）来创建代码块。以下是您的示例代码的完整Markdown格式：
-
-markdown
-Copy code
-# XPNG
 
 ## Dataset
 
