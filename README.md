@@ -10,6 +10,18 @@ To reproduce all our results as reported bellow, you can use our [pretrained mod
 
 
 
+## Environments
+
+You need the Pytorch >= 1.10.1, and follow the command that:
+
+conda create -n nice python=3.7
+conda activate XPNG
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip install -r requirements.txt
+
+After that, please follow the [instruction of detectron2](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md) to install detectron2 for the enviroment with:
+
+python -m pip install -e detectron2
 
 ## Dataset
 
