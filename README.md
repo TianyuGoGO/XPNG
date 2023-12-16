@@ -1,4 +1,4 @@
-To reproduce all our results as reported bellow, you can use our [pretrained modeL](https://drive.google.com/drive/my-drive) and our source code.
+To reproduce all our results as reported bellow, you can use our [pretrained modeL](https://drive.google.com/file/d/1S2ZQmB7_OA4HgdP7A6fGGsPCmknR0MpB/view?usp=drive_link) and our source code.
 
 | Method | All | Thing | Stuff | Single | Plural |
 |--------|-----|-------|-------|--------|--------|
