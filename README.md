@@ -14,8 +14,7 @@ Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webp
 Organize the files as follows:
 
 
-```html
-
+<span style="background-color: #F5F5DC; padding: 10px; color: black; font-weight: bold; display: inline-block; width: 100%; box-sizing: border-box;">
 XPNG
 |_ panoptic_narrative_grounding
    |_ images
@@ -31,7 +30,7 @@ XPNG
    |  |_ panoptic_val2017.json
 |_ data
 
-```html
+<\span >
 
 ## Pretrained Bert Model and PFPN
 
