@@ -11,6 +11,7 @@ To reproduce all our results as reported bellow, you can use our [pretrained mod
 ## Dataset
 Download the 2017 MSCOCO Dataset from its [official webpage](https://cocodataset.org/#download). You will need the train and validation splits' images and panoptic segmentations annotations.
 Download the Panoptic Narrative Grounding Benchmark from the PNG's [project webpage](https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads). Organize the files as follows:
+```plaintext
 XPNG
 |_ panoptic_narrative_grounding
 |_ images
@@ -25,3 +26,4 @@ XPNG
 | |_ panoptic_train2017.json
 | |_ panoptic_val2017.json
 |_ data
+```plaintext
