@@ -30,7 +30,7 @@ XPNG
    |  |_ panoptic_val2017.json
 |_ data
 
-<\span >
+</span >
 
 ## Pretrained Bert Model and PFPN
 
