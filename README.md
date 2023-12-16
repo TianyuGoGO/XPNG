@@ -30,6 +30,5 @@ XPNG
    |  |_ panoptic_train2017.json
    |  |_ panoptic_val2017.json
 |_ data
-</div>
-```html
+
 
