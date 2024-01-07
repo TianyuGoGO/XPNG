@@ -33,20 +33,40 @@ Organize the files as follows:
 ```html
 XPNG
 |_ panoptic_narrative_grounding
-|_ dataset
-| |_ coco
-| |  |_ val2017
-| |  |_ train2017
-|_ annotations
-| |_ png_coco_train2017.json
-| |_ png_coco_val2017.json
-| |_ panoptic_segmentation
-| | |_ train2017
-| | |_ val2017
-| |_ panoptic_train2017.json
-| |_ panoptic_val2017.json
+   |_ images
+   |  |_ train2017
+   |  |_ val2017
+   |_ annotations
+   |  |_ png_coco_train2017.json
+   |  |_ png_coco_val2017.json
+   |  |_ panoptic_segmentation
+   |  |  |_ train2017
+   |  |  |_ val2017
+   |  |_ panoptic_train2017.json
+   |  |_ panoptic_val2017.json
 |_ data
 ```
+Pre-process the Panoptic narrative Grounding Ground-Truth Annotation for the dataloader using utils/pre_process.py.
+At the end of this step you should have two new files in your annotations folder.
+
+```html
+panoptic_narrative_grounding
+|_ annotations
+   |_ png_coco_train2017.json
+   |_ png_coco_val2017.json
+   |_ png_coco_train2017_dataloader.json
+   |_ png_coco_val2017_dataloader.json
+   |_ panoptic_segmentation
+   |  |_ train2017
+   |  |_ val2017
+   |_ panoptic_train2017.json
+   |_ panoptic_val2017.json
+|_ images
+   |  |_ train2017
+   |  |_ val2017
+```
+
+
 
 ## Pretrained Bert Model and PFPN
 
