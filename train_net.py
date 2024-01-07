@@ -550,7 +550,7 @@ def train(cfg):
 
 
     start_epoch, best_val_score = 0, None
-    cfg.ckpt_path="/media/sdb4/jijiayi/guotianyu/PPMN_yoso_imgfeature_updated/random_center/model_best.pth"
+  
     if osp.exists(cfg.ckpt_path):
          if dist.get_rank()==0:
                print('Loading model from: {0}'.format(cfg.ckpt_path))
