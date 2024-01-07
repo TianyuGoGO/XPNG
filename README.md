@@ -14,13 +14,15 @@ To reproduce all our results as reported bellow, you can use our [pretrained mod
 
 You need the Pytorch >= 1.10.1, and follow the command that:
 ```html
-conda create -n nice python=3.7
-conda activate XPNG
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+conda create -n xpng python=3.8
+conda activate xpng
+conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.1 -c pytorch -c conda-forge
 pip install -r requirements.txt
 ```
 After that, please follow the [instruction of detectron2](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md) to install detectron2 for the enviroment with:
 ```html
+Assuming the absolute path to the project's root directory is /xpng
+cd /xpng
 python -m pip install -e detectron2
 ```
 ## Dataset
@@ -31,9 +33,10 @@ Organize the files as follows:
 ```html
 XPNG
 |_ panoptic_narrative_grounding
-|_ images
-| |_ train2017
-| |_ val2017
+|_ dataset
+| |_ coco
+| |  |_ val2017
+| |  |_ train2017
 |_ annotations
 | |_ png_coco_train2017.json
 | |_ png_coco_val2017.json
