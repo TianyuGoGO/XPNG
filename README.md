@@ -46,7 +46,7 @@ XPNG
    |  |_ panoptic_val2017.json
 |_ data
 ```
-Pre-process the Panoptic narrative Grounding Ground-Truth Annotation for the dataloader using utils/pre_process.py.
+Pre-process the Panoptic narrative Grounding Ground-Truth Annotation for the dataloader using [utils/pre_process.py](https://github.com/TianyuGoGO/XPNG/blob/main/utils/pre_process.py).
 At the end of this step you should have two new files in your annotations folder.
 
 ```html
