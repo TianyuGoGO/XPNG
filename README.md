@@ -62,6 +62,23 @@ pretrained_models
 |  |  |_bert_config.json
 |  |_bert-base-uncased.txt
 ```
+
+
+
+## Evaluate
+```
+Set args.test_only=True in main.py with --ckpt_path as the path to the model's pth parameter file.
+cd/xpng
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1  --nnodes=1   --master_port 29614 main.py
+```
+
+## Train
+Set args.test_only=False in main.py  
+cd/xpng
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2  --nnodes=1   --master_port 29615 main.py
+```
+
+```
 ## Acknowledge
 
 Some of the codes are built upon [K-Net](https://github.com/ZwwWayne/K-Net) and [PNG](https://github.com/BCV-Uniandes/PNG). Thanks them for their great works!
