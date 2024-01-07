@@ -200,14 +200,8 @@ def parse_args():
 
 def main():
     args = parse_args()
-    args.training=True
- #   args.test_only=True
-    args.bert_freeze=False
- #   args.output_dir="\XPNG"
-    if args.training:
-        train(args)
-    else:
-        test(args)
+    train(args)
+
 
 if __name__ == "__main__":
     main()
