@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from .kernel_update_head_no_stage5_stage3_one1_zhixin import KernelUpdateHead
+from .kernel_update_head import KernelUpdateHead
 
 from thop import profile
 from memory_profiler import profile
